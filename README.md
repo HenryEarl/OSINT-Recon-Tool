@@ -1,15 +1,14 @@
 # OSINT Recon Tool
 
-## Description
-Custom OSINT reconnaissance tool for external asset discovery, enumeration, and intelligence gathering.
+A reconnaissance utility for **authorized** external asset discovery and intelligence gathering.
 
-## Features
-- Domain enumeration
-- Subdomain discovery
-- Metadata collection
-- Extensible module framework
+## What it does
+- Asset discovery & enumeration
+- Optional module-based collection
+- Output to structured files (JSON/CSV/etc.)
 
 ## Installation
 ```bash
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
-
